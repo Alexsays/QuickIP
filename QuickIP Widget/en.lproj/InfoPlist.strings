@@ -1,0 +1,4 @@
+/* Display name and description for this extension. */
+"CFBundleDisplayName" = "QuickIP Widget";
+"com.apple.notificationcenter.widget.description" = "Get your IP address and copy it clicking the widget";
+
