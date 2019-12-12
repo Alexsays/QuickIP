@@ -5,7 +5,7 @@
 	<key>CFBundleDevelopmentRegion</key>
 	<string>$(DEVELOPMENT_LANGUAGE)</string>
 	<key>CFBundleDisplayName</key>
-	<string>QuickIP Widget</string>
+	<string>QuickIPWidget</string>
 	<key>CFBundleExecutable</key>
 	<string>$(EXECUTABLE_NAME)</string>
 	<key>CFBundleIdentifier</key>
@@ -34,9 +34,9 @@
 		<key>NSExtensionPrincipalClass</key>
 		<string>$(PRODUCT_MODULE_NAME).TodayViewController</string>
 		<key>com.apple.notificationcenter.widget.description</key>
-		<string>QuickIP Widget</string>
+		<string>QuickIPWidget</string>
 	</dict>
 	<key>NSHumanReadableCopyright</key>
-	<string>Copyright © 2019 Alex Silva. All rights reserved.</string>
+	<string>Copyright © 2019 Alex Silva Codes. All rights reserved.</string>
 </dict>
 </plist>

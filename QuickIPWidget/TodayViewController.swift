@@ -1,19 +1,18 @@
+//
+//  TodayViewController.swift
+//  QuickIPWidget
+//
+//  Created by Alex Silva on 12/12/2019.
+//  Copyright © 2019 Alex Silva Codes. All rights reserved.
+//
+
 import Cocoa
 import NotificationCenter
 
 class TodayViewController: NSViewController, NCWidgetProviding {
-    
-    @IBOutlet weak var ipLabel: NSTextField!
-    @IBOutlet weak var clickGestureRecognizer: NSClickGestureRecognizer!
 
     override var nibName: NSNib.Name? {
         return NSNib.Name("TodayViewController")
-    }
-    
-    override func viewWillAppear() {
-        super.viewWillAppear()
-
-        ipLabel.stringValue = ""
     }
 
     func widgetPerformUpdate(completionHandler: (@escaping (NCUpdateResult) -> Void)) {
@@ -22,15 +21,5 @@ class TodayViewController: NSViewController, NCWidgetProviding {
         // time we called you
         completionHandler(.noData)
     }
-    
-    // MARK: - Actions
-    
-    @IBAction private func onClickIPLabel(_ sender: Any) {
-        
-    }
 
-}
-
-extension TodayViewController: NSGestureRecognizerDelegate {
-    
 }

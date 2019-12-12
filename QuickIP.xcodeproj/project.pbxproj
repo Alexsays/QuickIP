@@ -7,34 +7,36 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		9CDADD2F23604749001C4042 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9CDADD2E23604749001C4042 /* AppDelegate.swift */; };
-		9CDADD332360474B001C4042 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9CDADD322360474B001C4042 /* Assets.xcassets */; };
-		9CDADD392360474B001C4042 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9CDADD372360474B001C4042 /* Main.storyboard */; };
-		9CDADD6023604873001C4042 /* NotificationCenter.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9CDADD472360478D001C4042 /* NotificationCenter.framework */; };
-		9CDADD6323604873001C4042 /* TodayViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9CDADD6223604873001C4042 /* TodayViewController.swift */; };
-		9CDADD6623604873001C4042 /* TodayViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9CDADD6423604873001C4042 /* TodayViewController.xib */; };
-		9CDADD6A23604873001C4042 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 9CDADD6823604873001C4042 /* InfoPlist.strings */; };
-		9CDADD6E23604873001C4042 /* QuickIP Widget.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = 9CDADD5F23604873001C4042 /* QuickIP Widget.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		9CF8269623A2C0CF00255E74 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9CF8269523A2C0CF00255E74 /* AppDelegate.swift */; };
+		9CF8269823A2C0CF00255E74 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9CF8269723A2C0CF00255E74 /* ContentView.swift */; };
+		9CF8269A23A2C0D200255E74 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9CF8269923A2C0D200255E74 /* Assets.xcassets */; };
+		9CF8269D23A2C0D200255E74 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9CF8269C23A2C0D200255E74 /* Preview Assets.xcassets */; };
+		9CF826A023A2C0D200255E74 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9CF8269E23A2C0D200255E74 /* Main.storyboard */; };
+		9CF826AF23A2C14000255E74 /* NotificationCenter.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9CF826AE23A2C14000255E74 /* NotificationCenter.framework */; };
+		9CF826B223A2C14000255E74 /* TodayViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9CF826B123A2C14000255E74 /* TodayViewController.swift */; };
+		9CF826B523A2C14000255E74 /* TodayViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9CF826B323A2C14000255E74 /* TodayViewController.xib */; };
+		9CF826B923A2C14000255E74 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 9CF826B723A2C14000255E74 /* InfoPlist.strings */; };
+		9CF826BD23A2C14000255E74 /* QuickIPWidget.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = 9CF826AC23A2C14000255E74 /* QuickIPWidget.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		9CDADD6C23604873001C4042 /* PBXContainerItemProxy */ = {
+		9CF826BB23A2C14000255E74 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = 9CDADD2323604749001C4042 /* Project object */;
+			containerPortal = 9CF8268A23A2C0CF00255E74 /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = 9CDADD5E23604873001C4042;
-			remoteInfo = "QuickIP Widget";
+			remoteGlobalIDString = 9CF826AB23A2C14000255E74;
+			remoteInfo = QuickIPWidget;
 		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXCopyFilesBuildPhase section */
-		9CDADD5A2360478D001C4042 /* Embed App Extensions */ = {
+		9CF826BE23A2C14000255E74 /* Embed App Extensions */ = {
 			isa = PBXCopyFilesBuildPhase;
 			buildActionMask = 2147483647;
 			dstPath = "";
 			dstSubfolderSpec = 13;
 			files = (
-				9CDADD6E23604873001C4042 /* QuickIP Widget.appex in Embed App Extensions */,
+				9CF826BD23A2C14000255E74 /* QuickIPWidget.appex in Embed App Extensions */,
 			);
 			name = "Embed App Extensions";
 			runOnlyForDeploymentPostprocessing = 0;
@@ -42,149 +44,161 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
-		9CDADD2B23604749001C4042 /* QuickIP.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = QuickIP.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		9CDADD2E23604749001C4042 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		9CDADD322360474B001C4042 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		9CDADD382360474B001C4042 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		9CDADD3A2360474B001C4042 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		9CDADD3B2360474B001C4042 /* QuickIP.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = QuickIP.entitlements; sourceTree = "<group>"; };
-		9CDADD472360478D001C4042 /* NotificationCenter.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = NotificationCenter.framework; path = System/Library/Frameworks/NotificationCenter.framework; sourceTree = SDKROOT; };
-		9CDADD5F23604873001C4042 /* QuickIP Widget.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "QuickIP Widget.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
-		9CDADD6223604873001C4042 /* TodayViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TodayViewController.swift; sourceTree = "<group>"; };
-		9CDADD6523604873001C4042 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/TodayViewController.xib; sourceTree = "<group>"; };
-		9CDADD6723604873001C4042 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		9CDADD6923604873001C4042 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
-		9CDADD6B23604873001C4042 /* QuickIP_Widget.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = QuickIP_Widget.entitlements; sourceTree = "<group>"; };
+		9CF8269223A2C0CF00255E74 /* QuickIP.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = QuickIP.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		9CF8269523A2C0CF00255E74 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		9CF8269723A2C0CF00255E74 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		9CF8269923A2C0D200255E74 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		9CF8269C23A2C0D200255E74 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		9CF8269F23A2C0D200255E74 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		9CF826A123A2C0D200255E74 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9CF826A223A2C0D200255E74 /* QuickIP.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = QuickIP.entitlements; sourceTree = "<group>"; };
+		9CF826AC23A2C14000255E74 /* QuickIPWidget.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = QuickIPWidget.appex; sourceTree = BUILT_PRODUCTS_DIR; };
+		9CF826AE23A2C14000255E74 /* NotificationCenter.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = NotificationCenter.framework; path = System/Library/Frameworks/NotificationCenter.framework; sourceTree = SDKROOT; };
+		9CF826B123A2C14000255E74 /* TodayViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TodayViewController.swift; sourceTree = "<group>"; };
+		9CF826B423A2C14000255E74 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/TodayViewController.xib; sourceTree = "<group>"; };
+		9CF826B623A2C14000255E74 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9CF826B823A2C14000255E74 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		9CF826BA23A2C14000255E74 /* QuickIPWidget.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = QuickIPWidget.entitlements; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		9CDADD2823604749001C4042 /* Frameworks */ = {
+		9CF8268F23A2C0CF00255E74 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		9CDADD5C23604873001C4042 /* Frameworks */ = {
+		9CF826A923A2C14000255E74 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				9CDADD6023604873001C4042 /* NotificationCenter.framework in Frameworks */,
+				9CF826AF23A2C14000255E74 /* NotificationCenter.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		9CDADD2223604749001C4042 = {
+		9CF8268923A2C0CF00255E74 = {
 			isa = PBXGroup;
 			children = (
-				9CDADD2D23604749001C4042 /* QuickIP */,
-				9CDADD6123604873001C4042 /* QuickIP Widget */,
-				9CDADD462360478D001C4042 /* Frameworks */,
-				9CDADD2C23604749001C4042 /* Products */,
+				9CF8269423A2C0CF00255E74 /* QuickIP */,
+				9CF826B023A2C14000255E74 /* QuickIPWidget */,
+				9CF826AD23A2C14000255E74 /* Frameworks */,
+				9CF8269323A2C0CF00255E74 /* Products */,
 			);
 			sourceTree = "<group>";
 		};
-		9CDADD2C23604749001C4042 /* Products */ = {
+		9CF8269323A2C0CF00255E74 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				9CDADD2B23604749001C4042 /* QuickIP.app */,
-				9CDADD5F23604873001C4042 /* QuickIP Widget.appex */,
+				9CF8269223A2C0CF00255E74 /* QuickIP.app */,
+				9CF826AC23A2C14000255E74 /* QuickIPWidget.appex */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		9CDADD2D23604749001C4042 /* QuickIP */ = {
+		9CF8269423A2C0CF00255E74 /* QuickIP */ = {
 			isa = PBXGroup;
 			children = (
-				9CDADD2E23604749001C4042 /* AppDelegate.swift */,
-				9CDADD322360474B001C4042 /* Assets.xcassets */,
-				9CDADD372360474B001C4042 /* Main.storyboard */,
-				9CDADD3A2360474B001C4042 /* Info.plist */,
-				9CDADD3B2360474B001C4042 /* QuickIP.entitlements */,
+				9CF8269523A2C0CF00255E74 /* AppDelegate.swift */,
+				9CF8269723A2C0CF00255E74 /* ContentView.swift */,
+				9CF8269923A2C0D200255E74 /* Assets.xcassets */,
+				9CF8269E23A2C0D200255E74 /* Main.storyboard */,
+				9CF826A123A2C0D200255E74 /* Info.plist */,
+				9CF826A223A2C0D200255E74 /* QuickIP.entitlements */,
+				9CF8269B23A2C0D200255E74 /* Preview Content */,
 			);
 			path = QuickIP;
 			sourceTree = "<group>";
 		};
-		9CDADD462360478D001C4042 /* Frameworks */ = {
+		9CF8269B23A2C0D200255E74 /* Preview Content */ = {
 			isa = PBXGroup;
 			children = (
-				9CDADD472360478D001C4042 /* NotificationCenter.framework */,
+				9CF8269C23A2C0D200255E74 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		9CF826AD23A2C14000255E74 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				9CF826AE23A2C14000255E74 /* NotificationCenter.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		9CDADD6123604873001C4042 /* QuickIP Widget */ = {
+		9CF826B023A2C14000255E74 /* QuickIPWidget */ = {
 			isa = PBXGroup;
 			children = (
-				9CDADD6223604873001C4042 /* TodayViewController.swift */,
-				9CDADD6423604873001C4042 /* TodayViewController.xib */,
-				9CDADD6723604873001C4042 /* Info.plist */,
-				9CDADD6823604873001C4042 /* InfoPlist.strings */,
-				9CDADD6B23604873001C4042 /* QuickIP_Widget.entitlements */,
+				9CF826B123A2C14000255E74 /* TodayViewController.swift */,
+				9CF826B323A2C14000255E74 /* TodayViewController.xib */,
+				9CF826B623A2C14000255E74 /* Info.plist */,
+				9CF826B723A2C14000255E74 /* InfoPlist.strings */,
+				9CF826BA23A2C14000255E74 /* QuickIPWidget.entitlements */,
 			);
-			path = "QuickIP Widget";
+			path = QuickIPWidget;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		9CDADD2A23604749001C4042 /* QuickIP */ = {
+		9CF8269123A2C0CF00255E74 /* QuickIP */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 9CDADD3E2360474B001C4042 /* Build configuration list for PBXNativeTarget "QuickIP" */;
+			buildConfigurationList = 9CF826A523A2C0D200255E74 /* Build configuration list for PBXNativeTarget "QuickIP" */;
 			buildPhases = (
-				9CDADD2723604749001C4042 /* Sources */,
-				9CDADD2823604749001C4042 /* Frameworks */,
-				9CDADD2923604749001C4042 /* Resources */,
-				9CDADD5A2360478D001C4042 /* Embed App Extensions */,
+				9CF8268E23A2C0CF00255E74 /* Sources */,
+				9CF8268F23A2C0CF00255E74 /* Frameworks */,
+				9CF8269023A2C0CF00255E74 /* Resources */,
+				9CF826BE23A2C14000255E74 /* Embed App Extensions */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				9CDADD6D23604873001C4042 /* PBXTargetDependency */,
+				9CF826BC23A2C14000255E74 /* PBXTargetDependency */,
 			);
 			name = QuickIP;
 			productName = QuickIP;
-			productReference = 9CDADD2B23604749001C4042 /* QuickIP.app */;
+			productReference = 9CF8269223A2C0CF00255E74 /* QuickIP.app */;
 			productType = "com.apple.product-type.application";
 		};
-		9CDADD5E23604873001C4042 /* QuickIP Widget */ = {
+		9CF826AB23A2C14000255E74 /* QuickIPWidget */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 9CDADD6F23604873001C4042 /* Build configuration list for PBXNativeTarget "QuickIP Widget" */;
+			buildConfigurationList = 9CF826C123A2C14000255E74 /* Build configuration list for PBXNativeTarget "QuickIPWidget" */;
 			buildPhases = (
-				9CDADD5B23604873001C4042 /* Sources */,
-				9CDADD5C23604873001C4042 /* Frameworks */,
-				9CDADD5D23604873001C4042 /* Resources */,
+				9CF826A823A2C14000255E74 /* Sources */,
+				9CF826A923A2C14000255E74 /* Frameworks */,
+				9CF826AA23A2C14000255E74 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
-			name = "QuickIP Widget";
-			productName = "QuickIP Widget";
-			productReference = 9CDADD5F23604873001C4042 /* QuickIP Widget.appex */;
+			name = QuickIPWidget;
+			productName = QuickIPWidget;
+			productReference = 9CF826AC23A2C14000255E74 /* QuickIPWidget.appex */;
 			productType = "com.apple.product-type.app-extension";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		9CDADD2323604749001C4042 /* Project object */ = {
+		9CF8268A23A2C0CF00255E74 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastSwiftUpdateCheck = 1110;
-				LastUpgradeCheck = 1110;
-				ORGANIZATIONNAME = "Alex Silva";
+				LastSwiftUpdateCheck = 1130;
+				LastUpgradeCheck = 1130;
+				ORGANIZATIONNAME = "Alex Silva Codes";
 				TargetAttributes = {
-					9CDADD2A23604749001C4042 = {
-						CreatedOnToolsVersion = 11.1;
+					9CF8269123A2C0CF00255E74 = {
+						CreatedOnToolsVersion = 11.3;
 					};
-					9CDADD5E23604873001C4042 = {
-						CreatedOnToolsVersion = 11.1;
+					9CF826AB23A2C14000255E74 = {
+						CreatedOnToolsVersion = 11.3;
 					};
 				};
 			};
-			buildConfigurationList = 9CDADD2623604749001C4042 /* Build configuration list for PBXProject "QuickIP" */;
+			buildConfigurationList = 9CF8268D23A2C0CF00255E74 /* Build configuration list for PBXProject "QuickIP" */;
 			compatibilityVersion = "Xcode 9.3";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -192,86 +206,88 @@
 				en,
 				Base,
 			);
-			mainGroup = 9CDADD2223604749001C4042;
-			productRefGroup = 9CDADD2C23604749001C4042 /* Products */;
+			mainGroup = 9CF8268923A2C0CF00255E74;
+			productRefGroup = 9CF8269323A2C0CF00255E74 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				9CDADD2A23604749001C4042 /* QuickIP */,
-				9CDADD5E23604873001C4042 /* QuickIP Widget */,
+				9CF8269123A2C0CF00255E74 /* QuickIP */,
+				9CF826AB23A2C14000255E74 /* QuickIPWidget */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		9CDADD2923604749001C4042 /* Resources */ = {
+		9CF8269023A2C0CF00255E74 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				9CDADD392360474B001C4042 /* Main.storyboard in Resources */,
-				9CDADD332360474B001C4042 /* Assets.xcassets in Resources */,
+				9CF826A023A2C0D200255E74 /* Main.storyboard in Resources */,
+				9CF8269D23A2C0D200255E74 /* Preview Assets.xcassets in Resources */,
+				9CF8269A23A2C0D200255E74 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		9CDADD5D23604873001C4042 /* Resources */ = {
+		9CF826AA23A2C14000255E74 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				9CDADD6623604873001C4042 /* TodayViewController.xib in Resources */,
-				9CDADD6A23604873001C4042 /* InfoPlist.strings in Resources */,
+				9CF826B523A2C14000255E74 /* TodayViewController.xib in Resources */,
+				9CF826B923A2C14000255E74 /* InfoPlist.strings in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		9CDADD2723604749001C4042 /* Sources */ = {
+		9CF8268E23A2C0CF00255E74 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				9CDADD2F23604749001C4042 /* AppDelegate.swift in Sources */,
+				9CF8269823A2C0CF00255E74 /* ContentView.swift in Sources */,
+				9CF8269623A2C0CF00255E74 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		9CDADD5B23604873001C4042 /* Sources */ = {
+		9CF826A823A2C14000255E74 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				9CDADD6323604873001C4042 /* TodayViewController.swift in Sources */,
+				9CF826B223A2C14000255E74 /* TodayViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		9CDADD6D23604873001C4042 /* PBXTargetDependency */ = {
+		9CF826BC23A2C14000255E74 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 9CDADD5E23604873001C4042 /* QuickIP Widget */;
-			targetProxy = 9CDADD6C23604873001C4042 /* PBXContainerItemProxy */;
+			target = 9CF826AB23A2C14000255E74 /* QuickIPWidget */;
+			targetProxy = 9CF826BB23A2C14000255E74 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		9CDADD372360474B001C4042 /* Main.storyboard */ = {
+		9CF8269E23A2C0D200255E74 /* Main.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				9CDADD382360474B001C4042 /* Base */,
+				9CF8269F23A2C0D200255E74 /* Base */,
 			);
 			name = Main.storyboard;
 			sourceTree = "<group>";
 		};
-		9CDADD6423604873001C4042 /* TodayViewController.xib */ = {
+		9CF826B323A2C14000255E74 /* TodayViewController.xib */ = {
 			isa = PBXVariantGroup;
 			children = (
-				9CDADD6523604873001C4042 /* Base */,
+				9CF826B423A2C14000255E74 /* Base */,
 			);
 			name = TodayViewController.xib;
 			sourceTree = "<group>";
 		};
-		9CDADD6823604873001C4042 /* InfoPlist.strings */ = {
+		9CF826B723A2C14000255E74 /* InfoPlist.strings */ = {
 			isa = PBXVariantGroup;
 			children = (
-				9CDADD6923604873001C4042 /* en */,
+				9CF826B823A2C14000255E74 /* en */,
 			);
 			name = InfoPlist.strings;
 			sourceTree = "<group>";
@@ -279,7 +295,7 @@
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
-		9CDADD3C2360474B001C4042 /* Debug */ = {
+		9CF826A323A2C0D200255E74 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -339,7 +355,7 @@
 			};
 			name = Debug;
 		};
-		9CDADD3D2360474B001C4042 /* Release */ = {
+		9CF826A423A2C0D200255E74 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -392,7 +408,7 @@
 			};
 			name = Release;
 		};
-		9CDADD3F2360474B001C4042 /* Debug */ = {
+		9CF826A623A2C0D200255E74 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
@@ -409,14 +425,14 @@
 					"$(inherited)",
 					"@executable_path/../Frameworks",
 				);
-				MACOSX_DEPLOYMENT_TARGET = 10.13;
+				MACOSX_DEPLOYMENT_TARGET = 10.15;
 				PRODUCT_BUNDLE_IDENTIFIER = codes.alexsilva.QuickIP;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 			};
 			name = Debug;
 		};
-		9CDADD402360474B001C4042 /* Release */ = {
+		9CF826A723A2C0D200255E74 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
@@ -433,49 +449,49 @@
 					"$(inherited)",
 					"@executable_path/../Frameworks",
 				);
-				MACOSX_DEPLOYMENT_TARGET = 10.13;
+				MACOSX_DEPLOYMENT_TARGET = 10.15;
 				PRODUCT_BUNDLE_IDENTIFIER = codes.alexsilva.QuickIP;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 			};
 			name = Release;
 		};
-		9CDADD7023604873001C4042 /* Debug */ = {
+		9CF826BF23A2C14000255E74 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				CODE_SIGN_ENTITLEMENTS = "QuickIP Widget/QuickIP_Widget.entitlements";
+				CODE_SIGN_ENTITLEMENTS = QuickIPWidget/QuickIPWidget.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
 				DEVELOPMENT_TEAM = VCJ54TJ566;
 				ENABLE_HARDENED_RUNTIME = YES;
-				INFOPLIST_FILE = "QuickIP Widget/Info.plist";
+				INFOPLIST_FILE = QuickIPWidget/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/../Frameworks",
 					"@executable_path/../../../../Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "codes.alexsilva.QuickIP.QuickIP-Widget";
+				PRODUCT_BUNDLE_IDENTIFIER = codes.alexsilva.QuickIP.QuickIPWidget;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SKIP_INSTALL = YES;
 				SWIFT_VERSION = 5.0;
 			};
 			name = Debug;
 		};
-		9CDADD7123604873001C4042 /* Release */ = {
+		9CF826C023A2C14000255E74 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				CODE_SIGN_ENTITLEMENTS = "QuickIP Widget/QuickIP_Widget.entitlements";
+				CODE_SIGN_ENTITLEMENTS = QuickIPWidget/QuickIPWidget.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
 				DEVELOPMENT_TEAM = VCJ54TJ566;
 				ENABLE_HARDENED_RUNTIME = YES;
-				INFOPLIST_FILE = "QuickIP Widget/Info.plist";
+				INFOPLIST_FILE = QuickIPWidget/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/../Frameworks",
 					"@executable_path/../../../../Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "codes.alexsilva.QuickIP.QuickIP-Widget";
+				PRODUCT_BUNDLE_IDENTIFIER = codes.alexsilva.QuickIP.QuickIPWidget;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SKIP_INSTALL = YES;
 				SWIFT_VERSION = 5.0;
@@ -485,34 +501,34 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		9CDADD2623604749001C4042 /* Build configuration list for PBXProject "QuickIP" */ = {
+		9CF8268D23A2C0CF00255E74 /* Build configuration list for PBXProject "QuickIP" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				9CDADD3C2360474B001C4042 /* Debug */,
-				9CDADD3D2360474B001C4042 /* Release */,
+				9CF826A323A2C0D200255E74 /* Debug */,
+				9CF826A423A2C0D200255E74 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		9CDADD3E2360474B001C4042 /* Build configuration list for PBXNativeTarget "QuickIP" */ = {
+		9CF826A523A2C0D200255E74 /* Build configuration list for PBXNativeTarget "QuickIP" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				9CDADD3F2360474B001C4042 /* Debug */,
-				9CDADD402360474B001C4042 /* Release */,
+				9CF826A623A2C0D200255E74 /* Debug */,
+				9CF826A723A2C0D200255E74 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		9CDADD6F23604873001C4042 /* Build configuration list for PBXNativeTarget "QuickIP Widget" */ = {
+		9CF826C123A2C14000255E74 /* Build configuration list for PBXNativeTarget "QuickIPWidget" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				9CDADD7023604873001C4042 /* Debug */,
-				9CDADD7123604873001C4042 /* Release */,
+				9CF826BF23A2C14000255E74 /* Debug */,
+				9CF826C023A2C14000255E74 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = 9CDADD2323604749001C4042 /* Project object */;
+	rootObject = 9CF8268A23A2C0CF00255E74 /* Project object */;
 }
